@@ -1,12 +1,12 @@
 # Regression-Project
 This is a time series forecasting project aimed to predict the store sales on  data from Corporation Favorita, a large Ecudorian-based grocery retailer.
 
-DATA SOURCES
+### DATA SOURCES
 Th datasets for this project were sourced from 3 different domains:
 i. Azubi Africa Database
 ii. Google drive and 
 iii. Github
-The datasets are in 7 categories namely;
+### The datasets are in 7 categories namely;
 Train
 Oil
 Sample_submission
@@ -25,14 +25,21 @@ Holiday dataset has features about the different holiday types with their corres
 The Earthquate hit of mid April 2016 in Ecuador was a major natural event that could negatively impart store sales in that period, so much attention was given to that month in this project to assess how it influenced store sales across the country.
 
 The Train dataset used to train models in this project is not stationary so it was differenced and made stationary after testing it again using KPSS method.
-6 models were trained in this project;
-1. Claasical models.
+
+ ### 6 models were trained in this project;
+ #### Claasical models.
 i. Auto Regressive (AR)
 ii. Moving Average(MA)
 iii. Auto Regressive Integrated Moving Average(ARIMA)
 iv. Seasonal Auto Regressive Integrated Moving Average(SARIMA)
 v. Seasonal Auto Regressive Integrated Moving Average(SARIMAX) X is the esogenous/external variable.
-2. Supervised machine learning model.
+#### Supervised machine learning model.
 XGBOOST Model
+
+### Model Performance
+SARIMAX is the best performing model with RMSLE of 3%
+
+### Power Bi link
+https://app.powerbi.com/links/sTSPncdqAh?ctid=4487b52f-f118-4830-b49d-3c298cb71075&pbi_source=linkShare
 
 
